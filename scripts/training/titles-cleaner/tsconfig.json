@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es2017",
+    "sourceMap": true,
+    "rootDir": "./src/",
+    "outDir": "./build/",
+    "declaration": false,
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["es2017", "esnext.asynciterable"],
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": {
+      "parse5": ["./node_modules/parse5/lib/index.d.ts"]
+    }
+  },
+  "exclude": ["node_modules", "**/*.spec.ts", "**/*.test.ts"]
+}
