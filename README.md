@@ -37,7 +37,7 @@ The project contains several components:
     3. You can view the file. The first line contains the number of vectors and dimensions, each other line contains word vector, sorted in descending order of word frequencies.
 
 1. Obtaining new word vectors:
-    1. Download dump of he-wiki articles (All pages, current versions only) from https://dumps.wikimedia.org/hewiki/. I downloaded https://dumps.wikimedia.org/hewiki/20180701/ version.
+    1. Download dump of he-wiki articles (All pages, current versions only) from https://dumps.wikimedia.org/hewiki/. I downloaded this version: https://dumps.wikimedia.org/hewiki/20180701/ .
     2. Clean the dump using the cleaning script (it can take several hours):
         1. Change directory to scripts/training
         2. Run the clean-wiki-dump python script with 2 parameters: 
