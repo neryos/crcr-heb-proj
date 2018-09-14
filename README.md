@@ -16,7 +16,7 @@ The project contains several components:
 3. Clone the Git project to your device from https://github.com/neryos/crcr-heb-proj
 
 # Training scripts
-## Titles: 
+## Titles
 1. Using pre-trained data: There is a pre-trained cleaned titles dictionary located in the pre-trained-data folder of the project. This is based on https://dumps.wikimedia.org/hewiki/20180701 version. Unzip the file before using it.
 2. Train new dictionary:
     1. Download titles list dump (List of page titles in main namespace) from https://dumps.wikimedia.org/hewiki/. 
@@ -30,7 +30,7 @@ The project contains several components:
     7. The results will be saved into the file scripts/training/titles-cleaner/resources/hewiki-titles-dict-clean.json.
     8. After the scripts finished, you can stop it using CTRL+C.
 
-##. Word vectors:
+## Word vectors
 1. Pre-trained vectors: 
     1. download pre-trained fastText vectors for Hebrew (text file) from https://fasttext.cc/docs/en/crawl-vectors.html. A file name cc.he.300.vec.gz should be downloaded. 
     2. Using the binary file creates problems with Hebrew unicode, so unzip the file.
