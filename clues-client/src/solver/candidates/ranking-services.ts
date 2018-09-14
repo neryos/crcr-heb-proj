@@ -362,7 +362,7 @@ const getTopFiveCandidates = (
   return undefined;
 };
 
-// Rank the candidates that were created by the crcr
+// Rank the candidates that were created by the script
 // Top element in top-five candidates array is the proposed solution
 export const rank = (
   data: DefinitionsCandidatesData[],

@@ -206,7 +206,7 @@ const filterMultiwordDivisions = (
 const filterRegularDivisions = (
   data: DefinitionsCandidatesData,
 ): RegularDivisionMeasures[] => {
-  // Currently regular divsions are not used in the CRCR-candidates-suggester script
+  // Currently regular divsions are not used in the candidates-suggester script
   const regularDivisions: RegularDivisionMeasures[] = [];
   return regularDivisions;
 };

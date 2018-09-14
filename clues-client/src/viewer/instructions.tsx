@@ -22,13 +22,17 @@ export class Instructions extends React.Component {
       <div>
         <div style={styles.format}>
           1. Enter an hebrew cryptic crossword definition and analyze it, or
-          upload definitions txt file and analyze it. Note: Uploading a file
-          with the same name multiple times in a row doesn't work due to browser
-          mechanisms, so refresh the page if necessary.
+          upload definitions txt file and analyze it.
+        </div>
+        <div style={styles.nextMessage}>
+          Note: Uploading a file with the same name multiple times in a row
+          doesn't work due to browser mechanisms, so refresh the page if
+          necessary.
         </div>
         <div style={styles.nextMessage}>
           The data will be downloaded to your device as a json file. You can
-          skip to step 3 if you already have the CRCR python script results
+          skip to step 3 if you already have the python candidates script
+          results.
         </div>
         <div style={styles.format}>
           <div>
@@ -44,10 +48,9 @@ export class Instructions extends React.Component {
           <div style={styles.defFormat}>a = answer</div>
         </div>
         <div style={styles.format}>
-          For example (you can copy one of this clues, they don't contain
-          lingustic clues):
+          For example (you can copy one of these clues):
         </div>
-        <div style={styles.example}>מגן שמש (3) (יוסי קאופמן) - דוד</div>
+        <div style={styles.example}>צבע שמן (4) (נריוס) - מאכל</div>
         <div style={styles.example}>מחזה ותו לא (5) (נריוס) - אותלו</div>
       </div>
     );

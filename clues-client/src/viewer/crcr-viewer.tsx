@@ -77,8 +77,8 @@ export class CrcrViewer extends React.Component<{}, TextDefinitionState> {
     return (
       <div>
         <div style={styles.format}>
-          2. Run the python CRCR-candidates-suggester script to analyze the
-          created suggester data.
+          2. Run the python candidates suggester script to analyze the created
+          divisions data.
         </div>
         <div style={styles.format}>
           3. Upload the script results - candidates json file. Evaluation tables
