@@ -57,8 +57,8 @@ The project contains several components:
 # Decoder
 ## setup
 1. You can use the client app on the cloud, or run it locally.
-    1. Client-side version deployed in the cloud: https://crcrhebproj.now.sh
-    2. Setup of a client app:
+    1. A client-side version is available here: https://crcrhebproj.now.sh
+    2. Setup of a local client app:
         1. From the home directory of the project, go to clues-client
         2. Install dependencies using the command
             yarn install
@@ -71,7 +71,7 @@ The project contains several components:
     1. Enter a clue that matches the clues format and analyze it, or upload a given clues-file.txt from the zipped data-and-result folder (this is not part of the Git project). 
     2. A file named divisions-data.json containing the divisions should be downloaded to your device.
 2.  Creating candidates based on the divisions (may take some time, between 1 minute to 1 hour, depends on the device and the model):
-    1. From the home folder of the project go to scripts/decoder  
+    1. From the home folder of the project go to scripts/decoder.
     2. Run the python candidates-suggester script with the follwing 5 parameters. Some warnings about OOV words will be printed, and that's fine:
         * python candidates-suggester.py \<wv-format\> \<word-vectors-file\> \<vectors-limit\> \<titles-dictionary-file\> \<divisions-file\>
         * wv-format (str): ft or w2v. Choose ft for the pre-trained vectors.
