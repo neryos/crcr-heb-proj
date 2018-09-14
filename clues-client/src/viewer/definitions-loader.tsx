@@ -37,7 +37,7 @@ export class DefintionsLoader extends React.Component {
   ) => {
     const content = JSON.stringify(dataForSuggester);
     const blob = new Blob([content], { type: 'text/plain;charset=utf-8' });
-    saveAs(blob, 'suggester-data.json');
+    saveAs(blob, 'divisions-data.json');
   };
 
   onLoadCandidates = (e: Event) => {
