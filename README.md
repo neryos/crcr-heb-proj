@@ -73,9 +73,9 @@ The project contains several components:
 2.  Creating candidates based on the divisions (may take some time, between 1 minute to 1 hour, depends on the device and the model):
     1. From the home folder of the project go to scripts/decoder  
     2. Run the python candidates-suggester script with the follwing 5 parameters. Some warnings about OOV words will be printed, and that's fine:
-        * python candidates-suggester.py <wv-format> <word-vectors-file> <vectors-limit> <titles-dictionary-file> <divisions-file>
+        * python candidates-suggester.py \<wv-format\> \<word-vectors-file\> \<vectors-limit\> \<titles-dictionary-file\> \<divisions-file\>
         * wv-format (str): ft or w2v. Choose ft for the pre-trained vectors.
-        * word-vectors-file (str): path for the vectors text file. e.g" ../cc.he.300.vec
+        * word-vectors-file (str): path for the vectors text file. e.g: ../cc.he.300.vec
         * vectors-limit (int): the number of vectors to load. A pre-trained fastest file contains 2000000 vectors. Best results are with 150000.
         * titles-dictionary-file (str): path for the cleaned titles dictionary json file. e.g:  ../hewiki-titles-map-clean.json
         * divisions-file (str): path for the divisions json file that was created using the JS clues-client app.
