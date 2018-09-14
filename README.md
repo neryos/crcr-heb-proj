@@ -1,6 +1,6 @@
 # crcr-heb-proj
 
-An app that tackled two simple types of cryptic crossword clues in Hebrew (anagrams, completion of MWE).
+An app that tackled two simple types of cryptic crossword clues in Hebrew (anagrams and completion of multiword expressions).
  
 The project contains several components:
 1. Trainer made of python scripts and JS server side script (titles-cleaner).
