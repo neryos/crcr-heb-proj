@@ -41,13 +41,13 @@ The project contains several components:
     2. Clean the dump using the cleaning script (it can take several hours):
         1. Change directory to scripts/training
         2. Run the clean-wiki-dump python script with 2 parameters: 
-            * python clean-wiki-dump.py <wiki-he-xml.bz2> <output-path>
+            * python clean-wiki-dump.py \<wiki-he-xml.bz2\> \<output-path\>
             * wiki-he-xml.bz2 (str) - the wiki.xml.bz2 dump 
             * output-path (str)- path for the cleaned wiki version.
     3. Train the model:
         1. Change directory to scripts/training
         2. Run the train_wv python script with the following 5 parameters (there are no default values):
-            * python train_word2vec.py <wv-format> <wiki-text-he> <vector-size> <window-size> <wv-output-path>
+            * python train_word2vec.py \<wv-format\> \<wiki-text-he\> \<vector-size\> \<window-size\> \<wv-output-path\>
             * wv-format (str): trained model, choose ft or w2v
             * wiki-text-he (str): path for a clean wiki
             * vector-size (int): size of vector in the model. I used values between 100 to 300.
@@ -68,7 +68,7 @@ The project contains several components:
 
 ## Tackling clues
 1. Uploading clues: 
-    1. Enter clue that matches the clues format and click analyze, or upload a given clues-file.txt from the zipped data-and-result folder (this is not part of the Git project). 
+    1. Enter a clue that matches the clues format and analyze it, or upload a given clues-file.txt from the zipped data-and-result folder (this is not part of the Git project). 
     2. A file named divisions-data.json containing the divisions should be downloaded to your device.
 2.  Creating candidates based on the divisions (may take some time, between 1 minute to 1 hour, depends on the device and the model):
     1. From the home folder of the project go to scripts/decoder  

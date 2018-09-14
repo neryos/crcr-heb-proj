@@ -21,7 +21,7 @@ export class Instructions extends React.Component {
     return (
       <div>
         <div style={styles.format}>
-          1. Enter an hebrew cryptic clue and analyze it, or upload clues txt
+          1. Enter an hebrew cryptic clue and analyze it, or upload a selected clues-txt
           file.
         </div>
         <div style={styles.nextMessage}>
