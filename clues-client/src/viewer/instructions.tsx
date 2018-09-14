@@ -50,8 +50,8 @@ export class Instructions extends React.Component {
         <div style={styles.format}>
           For example (you can copy one of these clues):
         </div>
-        <div style={styles.example}>צבע שמן (4) (נריוס) - מאכל</div>
         <div style={styles.example}>מחזה ותו לא (5) (נריוס) - אותלו</div>
+        <div style={styles.example}>צבע שמן (4) (נריוס) - מאכל</div>
       </div>
     );
   };

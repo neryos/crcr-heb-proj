@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-CRCR-CS (CRyptic CRossword clues Candidates' Suggester)
+CRCR-CS (CRyptic CRossword clues Candidates Suggester)
     
  Note: I had zero knowledge in python prior to this project, so please be patient about python conventions.
  
