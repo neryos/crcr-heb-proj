@@ -1,4 +1,3 @@
-import * as express from 'express';
 import * as fs from 'fs';
 import {
   buildLookupDictAnagram,
@@ -11,7 +10,7 @@ interface TitlesDicts {
   anagramDict: LookupDictAnagram;
 }
 const titlesPath: string =
-  process.env.HE_WIKI_TITLES || './resources/hewiki-20180701-all-titles-in-ns0';
+  process.env.HE_WIKI_TITLES || './resources/hewiki-all-titles-in-ns0';
 const loadTitlesFile = () => fs.readFileSync(titlesPath, 'utf8');
 
 const writeTitlesMapFile = (dicts: TitlesDicts) =>
