@@ -14,6 +14,7 @@
   },
   "author": "neryos",
   "license": "MIT",
+  "homepage": "https://github.com/neryos/crcr-heb-proj",
   "devDependencies": {
     "@types/node": "^10.9.4",
     "nodemon": "^1.18.4",

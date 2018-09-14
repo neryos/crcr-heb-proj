@@ -8,6 +8,9 @@
     "test": "react-scripts-ts test --env=jsdom",
     "eject": "react-scripts-ts eject"
   },
+  "author": "neryos",
+  "license": "MIT",
+  "homepage": "https://github.com/neryos/crcr-heb-proj",
   "dependencies": {
     "@material-ui/core": "^3.0.1",
     "@material-ui/icons": "^3.0.1",
