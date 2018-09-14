@@ -1,0 +1,7 @@
+{
+  "name": "crcrhebproj",
+  "alias": "crcrhebproj",
+  "engines": {
+    "node": "10.*.*"
+  }
+}

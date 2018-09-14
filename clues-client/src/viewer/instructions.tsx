@@ -21,8 +21,8 @@ export class Instructions extends React.Component {
     return (
       <div>
         <div style={styles.format}>
-          1. Enter an hebrew cryptic crossword definition and analyze it, or
-          upload definitions txt file and analyze it.
+          1. Enter an hebrew cryptic clue and analyze it, or upload clues txt
+          file.
         </div>
         <div style={styles.nextMessage}>
           Note: Uploading a file with the same name multiple times in a row
@@ -30,9 +30,8 @@ export class Instructions extends React.Component {
           necessary.
         </div>
         <div style={styles.nextMessage}>
-          The data will be downloaded to your device as a json file. You can
-          skip to step 3 if you already have the python candidates script
-          results.
+          The divisions will be downloaded to your device as a json file. You
+          can skip to step 3 if you already have candidates results.
         </div>
         <div style={styles.format}>
           <div>
