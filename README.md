@@ -57,11 +57,11 @@ The project contains several components:
 # Decoder
 ## setup
 1. You can use the client app on the cloud, or run it locally.
-    1. Cloud client-side version: https://crcrhebproj.now.sh
-    2. Setup of client app:
+    1. Client-side version depoloyed in the cloud: https://crcrhebproj.now.sh
+    2. Setup of a client app:
         1. From the home directory of the project, go to clues-client
         2. Install dependencies using the command
-            yarn install 
+            yarn install
         3. Run the app:
             yarn start
         4. If compiled successfully, the app is now available at your device, http://localhost:3000/
